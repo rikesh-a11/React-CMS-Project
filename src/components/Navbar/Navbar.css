@@ -1,0 +1,29 @@
+/* Style the navbar */
+.navbar {
+  background-color: #959494;
+  color: rgb(253, 253, 253);
+  padding: 10px 0;
+}
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.nav-list li {
+  margin: 0;
+  font-size: 20px;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: white;
+  margin: 0 20px; /* Add spacing between links */
+}
+
+.nav-list a:hover {
+  color: #f45a2c; /* Change the color on hover */
+}
