@@ -57,8 +57,10 @@ const SingleBlogs = () => {
         <img className="avatar" src={blog?.avatar} alt="Author Avatar" />
         <h1 className="blog-title">{blog?.title}</h1>
         <p className="blog-description">{blog?.description}</p>
-        <button onClick={deleteBlog}>Delete</button>
-        <button onClick={()=> navigate("/editBlogs/" + blog.id)}>Edit</button>
+        <div className='btn'>
+          <button onClick={deleteBlog}>Delete</button>
+          <button onClick={()=> navigate("/editBlogs/" + blog.id)}>Edit</button>
+        </div>
     </div>
     </>
   )
